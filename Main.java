@@ -15,12 +15,12 @@ class Persona
         this.name =  name;
     }
 
-    public void getEdad()
+    public int getEdad()
     {
         return edad;
     }
 
-    public void getName()
+    public String getName()
     {
         return name;
     }
@@ -47,13 +47,7 @@ public class Main {
         //panchito.edad=10;
         //lupita.edad=20;
 
-        System.out.println(panchito.getName() + "tiene" + panchito.getEdad() + "años.");
-        System.out.println(lupita.getName() + "tiene" + lupita.getEdad() + "años.");
-
-
-
-
-
-
+        System.out.println(panchito.getName() + " tiene " + panchito.getEdad() + " años.");
+        System.out.println(lupita.getName() + " tiene " + lupita.getEdad() + " años.");
     }
 }
